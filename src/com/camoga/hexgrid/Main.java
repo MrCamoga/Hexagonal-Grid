@@ -1,3 +1,5 @@
+package com.camoga.hexgrid;
+
 import java.awt.Canvas;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -10,7 +12,7 @@ import javax.swing.JFrame;
 
 public class Main extends Canvas {
 	
-	private int SCALE = 2;
+	private int SCALE = 1;
 	private int WIDTH = 800/SCALE, HEIGHT = 800/SCALE;
 	private Dimension DIMENSION = new Dimension(WIDTH*SCALE, HEIGHT*SCALE);
 	public BufferedImage image = new BufferedImage(WIDTH, WIDTH, BufferedImage.TYPE_INT_RGB);
